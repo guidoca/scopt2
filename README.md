@@ -19,16 +19,17 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-# Installation
+## Installation
 
 scopt2 requires matlab R2018a or latest. 
-% Dependencies
+
+### Dependencies
  1. Ecos Solver 
  2. SDPT3 Solver
  3. OR CVX Installation
 
 
-# User Manual
+## User Manual
 A full Description is available in a Master Thesis from the TU Delft Repository:
  'Optimum On-board Abort Guidance based on Successive Convexification
  for Atmospheric Re-Entry Vehicles', Master Thesis, Guillermo
