@@ -19,7 +19,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-%% Installation
+# Installation
 
 scopt2 requires matlab R2018a or latest. 
 % Dependencies
@@ -28,12 +28,9 @@ scopt2 requires matlab R2018a or latest.
  3. OR CVX Installation
 
 
- 
-% A full Description is available in the Git Repository in the Doc section:
-% https://github.com/guidoca/scopt2.git
-
-% and in a Master Thesis from the TU Delft Repository:
-%  'Optimum On-board Abort Guidance based on Successive Convexification
-%  for Atmospheric Re-Entry Vehicles', Master Thesis, Guillermo
-%  Joaquin Dominguez Calabuig. 
-% <https://repository.tudelft.nl/islandora/object/uuid%3A3a33c54b-ed54-407a-88ce-c9d0b3d8f738?collection=education>
+# User Manual
+A full Description is available in a Master Thesis from the TU Delft Repository:
+ 'Optimum On-board Abort Guidance based on Successive Convexification
+ for Atmospheric Re-Entry Vehicles', Master Thesis, Guillermo
+ Joaquin Dominguez Calabuig. 
+ <https://repository.tudelft.nl/islandora/object/uuid%3A3a33c54b-ed54-407a-88ce-c9d0b3d8f738?collection=education>
