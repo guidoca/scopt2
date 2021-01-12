@@ -5,7 +5,7 @@ function plotNonZeroEntriesAB(A,b,figNum,index)
 figure(figNum)
 n = 7;
 subplot(1,n,1:n-1)
-scopt.plotNonZeroEntries(A);
+scopt2.plotNonZeroEntries(A);
 if nargin ==5
     hold on
     %     plot(index.states(1)*ones(1,2),ylim,'r','linewidth',2)
@@ -61,6 +61,6 @@ if nargin ==5
 end
 
 subplot(1,n,n)
-scopt.plotNonZeroEntries(b);
+scopt2.plotNonZeroEntries(b);
 end
 

@@ -14,19 +14,19 @@ Gsoc  = Gaug(dims.l+1:end,:);
 hsoc  = haug(dims.l+1:end,1);
 
 
-scopt.plotNonZeroEntriesAB(MEQ,pEQ,11,obj.problem.phases(1).index)
+scopt2.plotNonZeroEntriesAB(MEQ,pEQ,11,obj.problem.phases(1).index)
 title('Equality Constraints')
 scoptSave2pdf(obj,'equalityMatrices')
-scopt.plotNonZeroEntriesAB(MINEQ,pINEQ,12,obj.problem.phases(1).index)
+scopt2.plotNonZeroEntriesAB(MINEQ,pINEQ,12,obj.problem.phases(1).index)
 title('Inequality Constraints')
 scoptSave2pdf(obj,'inequalityMatrices')
-scopt.plotNonZeroEntriesAB(Gsoc,hsoc,13,obj.problem.phases(1).index)
+scopt2.plotNonZeroEntriesAB(Gsoc,hsoc,13,obj.problem.phases(1).index)
 title('Second Order Cone Constraints')
 scoptSave2pdf(obj,'socMatrices')
-scopt.plotNonZeroEntries(f,14,obj.problem.phases(1).index)
+scopt2.plotNonZeroEntries(f,14,obj.problem.phases(1).index)
 title('Objective Vector')
 scoptSave2pdf(obj,'objectiveVector')
-scopt.plotNonZeroEntries(fnp,14,obj.problem.phases(1).index)
+scopt2.plotNonZeroEntries(fnp,14,obj.problem.phases(1).index)
 title('Augmented Objective Vector')
 scoptSave2pdf(obj,'augmentedObjectiveVector')
 
